@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: skyblue;
+  animation-name: skypath;
 }
 
 .sun {
@@ -8,6 +10,7 @@
   height: 200px;
   border-radius: 50%;
   background-color: yellow;
+  animation-name: sunpath;
 }
 
 .grass {
@@ -15,4 +18,10 @@
   height: 800px;
   background-color: green;
   margin-top: 70px;
+}
+
+@keyframes sunpath {
+}
+
+@keyframes skypath {
 }
