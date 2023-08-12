@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: skyblue;
+  background-color: navy;
   animation-name: skypath;
 }
 
@@ -9,7 +9,8 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: red;
+  transform: translateY(35%);
   animation-name: sunpath;
 }
 
@@ -18,10 +19,41 @@
   height: 800px;
   background-color: green;
   margin-top: 70px;
+  z-index: 100;
 }
 
 @keyframes sunpath {
+  10% {
+    background-color: orange;
+  }
+  30% {
+    background-color: orange;
+  }
+  70% {
+    background-color: orange;
+  }
+  90% {
+    background-color: orange;
+  }
+  100% {
+    background-color: orange;
+  }
 }
 
 @keyframes skypath {
+  10% {
+    background-color: pink;
+  }
+  30% {
+    background-color: orange;
+  }
+  70% {
+    background-color: orange;
+  }
+  90% {
+    background-color: orange;
+  }
+  100% {
+    background-color: orange;
+  }
 }
