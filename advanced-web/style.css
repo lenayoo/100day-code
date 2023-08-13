@@ -6,8 +6,8 @@
 }
 
 .sun {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-color: red;
   transform: translateY(35%);
@@ -27,16 +27,16 @@
     background-color: orange;
   }
   30% {
-    background-color: orange;
+    background-color: yellow;
   }
   70% {
-    background-color: orange;
+    background-color: rgb(243, 243, 0);
   }
   90% {
     background-color: orange;
   }
   100% {
-    background-color: orange;
+    background-color: red;
   }
 }
 
@@ -45,15 +45,15 @@
     background-color: pink;
   }
   30% {
-    background-color: orange;
+    background-color: skyblue;
   }
   70% {
-    background-color: orange;
+    background-color: blue;
   }
   90% {
-    background-color: orange;
+    background-color: pink;
   }
   100% {
-    background-color: orange;
+    background-color: navy;
   }
 }
